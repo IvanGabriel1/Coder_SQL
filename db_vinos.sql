@@ -18,7 +18,7 @@ anio_fundacion INT,
 PRIMARY KEY(id),
 INDEX idx_bodega_nombre (nombre),
 INDEX idx_anio_fundacion (anio_fundacion),
-FOREIGN KEY (id_provincias) REFERENCES provincias(id)
+FOREIGN KEY (id_provincia) REFERENCES provincias(id)
 );
 
 CREATE TABLE cepas (
